@@ -1,0 +1,77 @@
+.container-fluid{
+    padding: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+	--mainColor: #fcfcfc;
+	--secondaryColor: #e41766;
+	--textColor: #0f0f0f;
+}
+.carouser-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.carouser-button p{
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color:var(--secondaryColor);
+    padding: 14px;
+}
+.carousel-image{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.carousel-image img{
+    height: 250px;
+}
+.slider-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.slider-content h1
+{
+color: white;
+/* text-align: center; */
+padding: 0 10px;
+
+}
+.slider-content p{
+    color: rgb(221, 214, 214);
+    font-weight: 300;
+    padding: 0 40px;
+}
+.btnknow{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 4px;
+    padding: 7px 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.slider-button{
+    margin: 0 40px;
+}
+.carousel-inner{
+    padding-bottom: 0;
+    margin-bottom: -20px;
+
+}
+.btn1{
+    background-color: var(--secondaryColor);
+}

@@ -1,0 +1,58 @@
+:root {
+    --abtbg: rgb(40, 119, 236);
+    --secondaryColor: #e41766;
+    --textColor: #0f0f0f;
+    --cardcolor: rgb(243, 237, 237);
+}
+
+.contact-heading {
+    margin-top: 12px;
+    height: auto;
+    padding: 30px;
+    background-color: var(--abtbg);
+}
+
+.contact-heading h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.contact_us_form {
+    padding: 20px;
+    background-color: rgb(215, 218, 221);
+    margin: 8px;
+    border-radius:20px ;
+}
+
+.form-floating input:focus {
+    box-shadow: none;
+    border: 1px solid #e41766;
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border: 1px solid #e41766;
+}
+
+.textareabox textarea:focus {
+    box-shadow: none;
+    border: 1px solid #e41766;
+}
+
+.submit-btns button {
+    margin: 2px 4px;
+    padding: 10px 14px;
+    outline: none;
+    border: none;
+    border: 1px solid #e41766;
+    transition: 0.7s all;
+}
+
+.submit-btns button:hover {
+    background-color: var(--secondaryColor);
+    border: 1px solid black;
+    color: white;
+}

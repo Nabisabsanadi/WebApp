@@ -1,0 +1,59 @@
+:root {
+	--mainColor: #fcfcfc;
+	--secondaryColor: #e41766;
+	--textColor: #0f0f0f;
+}
+
+.footer-menu {
+    background-color: rgb(235, 237, 238);
+}
+.footer-heading h4{
+    font-weight: 400;
+}
+.footer-links ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Removes default numbering of the list */
+}
+
+.footer-links ol li {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.footer-links ol li a {
+    margin: 0;
+    padding: 0;
+    padding-left: 2px;
+    text-decoration: none; /* Optional: removes underline */
+    display: inline-block; /* Ensures better control of the layout */
+    color: inherit; /* Optional: inherits the color from the parent */
+}
+.footer-links ol li a:hover{
+color: var(--secondaryColor);
+font-weight: 600;
+}
+.contact-icons{
+    display: flex;
+    gap: 10px;
+
+}
+.contact-icons a{
+    padding:0;
+    font-size: 25px;
+    margin: 0;
+    color: var(--mainColor);
+    background-color: var(--secondaryColor);
+    padding: 5px;
+    border-radius: 4px;
+}
+ .contacticon{
+    font-weight: bold;
+    background-color: black;
+    font-size: 27px;
+    color: white;
+    padding: 4px;
+    margin: 0 5px;
+
+}

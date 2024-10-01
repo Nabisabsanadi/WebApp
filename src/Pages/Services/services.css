@@ -1,0 +1,47 @@
+:root {
+    --abtbg: rgb(40, 119, 236);
+    --secondaryColor: #e41766;
+    --textColor: #0f0f0f;
+    --cardcolor: rgb(243, 237, 237);
+}
+
+.service_card {
+    height: 170px;
+    box-shadow: 1px 1px 3px gray;
+    margin: 30px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    transition: 0.6s all;
+}
+
+.service_card img {
+    height: 80px;
+    margin-bottom: 12px;
+}
+
+.service_card h6 {
+    font-weight: 600;
+    color: var(--secondaryColor);
+}
+
+.service_card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.service-heading {
+    margin-top: 12px;
+    height: auto;
+    padding: 30px;
+    background-color: var(--abtbg);
+}
+
+.service-heading h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}

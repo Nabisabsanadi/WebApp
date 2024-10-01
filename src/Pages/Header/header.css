@@ -1,0 +1,30 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(40, 119, 236);
+    padding: 6px;
+}
+.header p{
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0;
+}
+.header-icons{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+@media only screen and (max-width: 576px)
+{
+    .header-location{
+        display: inline-block;
+        width: 50%;
+    }
+}

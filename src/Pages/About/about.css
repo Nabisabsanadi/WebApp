@@ -1,0 +1,132 @@
+:root {
+    --abtbg: rgb(40, 119, 236);
+    --secondaryColor: #e41766;
+    --textColor: #0f0f0f;
+    --cardcolor:rgb(243, 237, 237);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.aboutus-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 10px;
+    background-color: var(--abtbg);
+    padding: 80px;
+}
+.aboutus-menu h1{
+color: white;
+font-weight: bold;
+font-size: 60px;
+}
+.about-content{
+    padding: 15px 30px;
+}
+.about-content h1{
+    font-weight: 600;
+}
+.about-buttons  button{
+margin: 2px 4px;
+padding: 10px 14px;
+outline: none;
+border: none;
+border:1px solid #e41766;
+transition: 0.7s all ;
+}
+.about-buttons  button:hover{
+    background-color: var(--secondaryColor);
+    border: 1px solid black;
+    color: white;
+}
+.about-comnay{
+    background-color: var(--abtbg);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.about-comnay  img{
+    height: 250px;
+}
+.our-porcess  p{
+    padding: 4px  30px;
+}
+.our-porcess h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* our process cards */
+.card{
+    height: 230px;
+    /* width: 200px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    cursor: pointer;
+    background-color: var(--cardcolor);
+    margin-top: 10px;
+    transition:0.6s all;
+}
+.icons  span{
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--abtbg);
+}
+.card-heading h3{
+    font-weight: 400;
+    color: var(--secondaryColor);
+
+}
+.Mycards{
+    margin-top: 12px;
+    box-sizing: border-box;
+    /* height: 300px; */
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px  2px;
+}
+.card:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+
+/* Our Core values */
+.corevalues-card{
+    height:200px;
+    /* background-color: var(--cardcolor); */
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px gray;
+}
+.corevalues-card p{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--abtbg);
+}
+.our-core-values h1
+{
+    padding: 10px 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.corevalues-card{
+    margin-bottom: 10px;
+}
+.corevalues-card  h3{
+    color: var(--secondaryColor);
+    font-weight: 400;
+}
